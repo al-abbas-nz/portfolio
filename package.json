@@ -1,0 +1,65 @@
+{
+  "name": "abs-gatsby-starter-default",
+  "private": false,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "1.0.0",
+  "author": "Abs",
+  "dependencies": {
+    "@sanity/block-content-to-react": "^2.0.7",
+    "autoprefixer": "^9.8.6",
+    "dotenv": "^8.2.0",
+    "gatsby": "^2.20.8",
+    "gatsby-cli": "^3.0.0",
+    "gatsby-image": "^2.2.44",
+    "gatsby-plugin-manifest": "^2.3.3",
+    "gatsby-plugin-offline": "^3.1.2",
+    "gatsby-plugin-postcss": "^2.3.13",
+    "gatsby-plugin-react-helmet": "^3.1.24",
+    "gatsby-plugin-sass": "^2.2.0",
+    "gatsby-plugin-sharp": "^2.4.13",
+    "gatsby-plugin-typescript": "^2.3.0",
+    "gatsby-source-filesystem": "^2.1.56",
+    "gatsby-source-sanity": "^5.0.6",
+    "gatsby-transformer-sharp": "^2.4.3",
+    "nightwind": "^1.1.6",
+    "node-sass": "^4.14.1",
+    "postcss": "^7.0.35",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^5.2.1",
+    "react-social-icons": "^4.1.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.4",
+    "@types/node": "^13.9.5",
+    "@types/react": "^16.9.27",
+    "@types/react-dom": "^16.9.5",
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "gatsby",
+    "sanity",
+    "tailwindcss",
+    "typescript",
+    "sass"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  }
+}
