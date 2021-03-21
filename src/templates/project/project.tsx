@@ -84,20 +84,21 @@ const Project: FunctionComponent<{ data: { sanityProject: IProject } }> = ({
               </div>
             )}
           </div>
+          <div className="content-text">
+            {data.sanityProject.tags.map((tag: ITag) => (
+              <Tag key={tag._id} tag={tag} toggleTagState={null} />
+            ))}
+          </div>
           <div className="label-content-container">
-            <p className="label-text">Description</p>
+            {/* <p className="label-text">Description</p> */}
+
             <p className="content-text">{data.sanityProject.description}</p>
           </div>
           <div className="label-content-container">
             {/* <p className="label-text">Tags</p> */}
-            <div className="content-text">
-              {data.sanityProject.tags.map((tag: ITag) => (
-                <Tag key={tag._id} tag={tag} toggleTagState={null} />
-              ))}
-            </div>
           </div>
           <div className="label-content-container">
-            <p className="label-text">About</p>
+            {/* <p className="label-text">About</p> */}
             <div className="content-text">
               <BlockContent blocks={data.sanityProject._rawBody} />
             </div>

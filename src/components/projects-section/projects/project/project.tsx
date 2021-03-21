@@ -15,7 +15,7 @@ const Project: FunctionComponent<IProjectProps> = ({ project }) => {
       <div className="project-content-container">
         <div className="project-text-container">
           <div className="project-name">{project.title}</div>
-          <p className="project-description">{project.description}</p>
+          {/* <p className="project-description">{project.description}</p> */}
         </div>
         {(() => {
           switch (project.title) {
@@ -40,7 +40,6 @@ const Project: FunctionComponent<IProjectProps> = ({ project }) => {
               )
           }
         })()}
-
         <div className="project-tags-container">
           {project.tags.map((tag: ITag) => (
             <Tag key={tag._id} tag={tag} toggleTagState={null} />
