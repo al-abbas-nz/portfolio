@@ -90,24 +90,21 @@
   .project-image,
   .project-content-container {
     @screen xl {
-      @apply mx-32;
-    }
-
-    @screen 2xl {
       @apply mx-16;
     }
   }
-  .imageWrapper {
-    width: 45%;
-    display: block;
-    margin: 0 auto;
-    max-width: 720px;
-    @media (max-width: 500px) {
-      width: 320px;
-    }
-    @media (max-width: 350px) {
-      width: 280px;
-    }
+}
+
+.imageWrapper {
+  width: 45%;
+  display: block;
+  margin: 0 auto;
+  // max-width: 720px;
+  @media (max-width: 500px) {
+    width: 320px;
+  }
+  @media (max-width: 350px) {
+    width: 280px;
   }
 }
 

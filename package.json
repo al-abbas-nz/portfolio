@@ -22,7 +22,6 @@
     "gatsby-source-filesystem": "^2.1.56",
     "gatsby-source-sanity": "^5.0.6",
     "gatsby-transformer-sharp": "^2.4.3",
-    "nightwind": "^1.1.6",
     "node-sass": "^4.14.1",
     "postcss": "^7.0.35",
     "prop-types": "^15.7.2",

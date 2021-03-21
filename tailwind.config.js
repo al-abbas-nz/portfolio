@@ -30,9 +30,9 @@ module.exports = {
       'md': '768px',
       'lg': '1024px',
       'xl': '1280px',
-      '2xl': '1367px'
+      '2xl': '1536px'
     }
   },
   variants: {},
-  plugins: [require("nightwind")],
+  plugins: [],
 }

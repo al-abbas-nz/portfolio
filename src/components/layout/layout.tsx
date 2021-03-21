@@ -6,7 +6,6 @@
  */
 
 import { graphql, useStaticQuery } from "gatsby"
-import nightwind from "nightwind/helper"
 import PropTypes from "prop-types"
 import React from "react"
 import Header from "../header/header"
@@ -51,7 +50,6 @@ const Layout = ({ children }) => {
           </a>
         </footer>
       </div>
-      <script dangerouslySetInnerHTML={{ __html: nightwind.init() }} />
     </>
   )
 }
